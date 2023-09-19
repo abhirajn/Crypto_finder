@@ -27,7 +27,7 @@ useEffect(() => {
 }, [count]);
 
 function res(){
-  axios.get('http://localhost:8000/getData')
+  axios.get('https://crypto-backend-odvr.onrender.com/getData')
 
   .then((response) =>{
 
